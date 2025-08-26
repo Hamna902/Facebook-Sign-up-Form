@@ -27,7 +27,7 @@ This project was created as a practice assignment to learn form design, responsi
 ```text
 project-root/
 │-- index.html       # Main HTML file  
-│-- style.css        # Stylesheet (inline in this version)   
+│-- style.css        # Stylesheet 
 │-- preview.png      # Screenshot for README  
 ```
 ---
