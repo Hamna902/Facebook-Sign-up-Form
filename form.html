@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup Form</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* full viewport height */
+            margin: 0;
+            padding: 10px;
+            /* small padding for mobile */
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100%;
+            max-width: 400px;
+            /* keeps it compact on large screens */
+        }
+
+        .name {
+            background-color: rgb(247, 248, 255);
+            border: 1px solid grey;
+            border-radius: 2px;
+            width: 163px;
+            height: 20px;
+        }
+
+        .name2 {
+            background-color: rgb(247, 248, 255);
+            border: 1px solid grey;
+            border-radius: 2px;
+            width: 340px;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        .date {
+            width: 112px;
+            height: 20px;
+        }
+
+        .dob {
+            font-size: 10px;
+            height: 2px;
+        }
+
+        .gender {
+            display: inline-block;
+            border: 1px solid grey;
+            width: 110px;
+
+        }
+
+        .para {
+            font-size: 10px;
+        }
+
+        button {
+            background-color: rgb(36, 159, 36);
+            border: 1px rgb(36, 159, 36);
+            border-radius: 4px;
+            font-weight: 600;
+            width: 160px;
+            height: 30px;
+            font-size: large;
+            color: aliceblue;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            text-decoration-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Sign Up</h1>
+        <p>It's quick and easy.</p>
+        <hr>
+        <input class="name" type="text" id="text" placeholder="First Name">
+        <input class="name" type="text" id="text" placeholder="Surname">
+
+
+        <div>
+            <p class="dob">Date of Birth?</p>
+            <select class="date" name="birthday">
+                <option value="birthday">30</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select class="date" name="birthday" id="">
+                <option value="month">Sep</option>
+                <option value="jan">jan</option>
+                <option value="feb">feb</option>
+                <option value="march">march</option>
+            </select>
+            <select class="date" name="birthday" id="">
+                <option value="year">2024</option>
+                <option value="1980">1980</option>
+                <option value="1980">1981</option>
+                <option value="1980">1982</option>
+            </select>
+        </div>
+
+
+        <p class="dob">Gender?</p>
+        <div class="parent">
+            <div class="gender">
+                Female &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" name="gender" id="female">
+            </div>
+            <div class="gender">
+                Male &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="male">
+            </div>
+            <div class="gender">
+                Custom &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" name="gender" id="custom">
+            </div>
+        </div>
+        <input type="email" name="email" class="name2" placeholder="Mobile Number or Email address">
+        <input class="name2" placeholder="Password">
+        <p class="para">People who use our service may have uploaded your contact information to Facebook. <a
+                href="www.google.com">Learn more.</a> <br> By clicking Sign Up, you agree to our <a
+                href="www.goggle.com">Terms.</a> Learn how we collect, use and share your data in our <a
+                href="www.goggle.com">Privacy Policy</a> and how we use cookies and similar technology in our <a
+                href="www.goggle.com">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at
+            any time.</p>
+
+        <div class="button">
+            <button>Sign Up</button>
+        </div>
+        <br>
+        <footer style="font-size: 10px; text-align: center;">© Hamna Nazar</footer>
+    </div>
+</body>
+
+</html>
