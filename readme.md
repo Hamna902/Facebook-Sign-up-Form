@@ -38,7 +38,7 @@ project-root/
 git clone https://github.com/Hamna902/Facebook-Sign-up-Form.git
 
 2- Open the project folder:
-cd facebook-signup-form
+cd Facebook-Sign-up-Form
 
 3- Open index.html in your browser.
 
