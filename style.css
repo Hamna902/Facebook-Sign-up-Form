@@ -1,0 +1,72 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* full viewport height */
+            margin: 0;
+            padding: 10px;
+            /* small padding for mobile */
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100%;
+            max-width: 400px;
+            /* keeps it compact on large screens */
+        }
+
+        .name {
+            background-color: rgb(247, 248, 255);
+            border: 1px solid grey;
+            border-radius: 2px;
+            width: 163px;
+            height: 20px;
+        }
+
+        .name2 {
+            background-color: rgb(247, 248, 255);
+            border: 1px solid grey;
+            border-radius: 2px;
+            width: 340px;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        .date {
+            width: 112px;
+            height: 20px;
+        }
+
+        .dob {
+            font-size: 10px;
+            height: 2px;
+        }
+
+        .gender {
+            display: inline-block;
+            border: 1px solid grey;
+            width: 110px;
+
+        }
+
+        .para {
+            font-size: 10px;
+        }
+
+        button {
+            background-color: rgb(36, 159, 36);
+            border: 1px rgb(36, 159, 36);
+            border-radius: 4px;
+            font-weight: 600;
+            width: 160px;
+            height: 30px;
+            font-size: large;
+            color: aliceblue;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            text-decoration-color: azure;
+        }
